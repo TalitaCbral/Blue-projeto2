@@ -1,0 +1,29 @@
+*{
+    
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+.navbar{
+    background-color: #231F20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 8rem;
+}
+
+.menus{
+    font-family: 'Shippori Antique', sans-serif;
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.menus li{
+    margin: 0rem 1rem;
+    
+}
