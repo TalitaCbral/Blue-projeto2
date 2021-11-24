@@ -1,10 +1,9 @@
-import './Slider.css'
+import './Slider.css';
 
-export default function Slider(){
-
-    return(
-        <>
-            <h2>projeto2-testando</h2>
-        </>
-    )
+export default function Slider(props) {
+  return (
+    <div>
+      <img className='image' src={props.imageLink} alt={props.alt} />
+    </div>
+  )
 }

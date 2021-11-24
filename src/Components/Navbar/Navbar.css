@@ -5,25 +5,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 
 .navbar{
-    background-color: #231F20;
+    background-color: #171a21;
+    padding: 11px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
 }
 
 .logo{
-    width: 8rem;
+    width: 160px;
+    margin: 0px 10px 0px 0px;
+    padding: 20px 0px 0px;
 }
+
 
 .menus{
     font-family: 'Shippori Antique', sans-serif;
-    color: azure;
+    color: #B8B6B4;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
     
 }
 
 .menus li{
     margin: 0rem 1rem;
-    
+
 }

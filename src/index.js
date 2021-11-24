@@ -1,11 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './Components/main/Main';
-
+import Home from '../src/pages/Home';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Main />
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
