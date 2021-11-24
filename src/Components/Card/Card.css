@@ -1,25 +1,25 @@
 .card {
-  margin: 0 0.8rem 1rem;
+  margin: 0.5rem;
 }
 
 .card-item {
   cursor: pointer;
   text-decoration: none;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 .card-image img {
   width: 15rem;
   height: 10rem;
-  border-radius: 0.4rem;
 }
 
 .card-title {
-  padding: 0.5rem 0;
+  font-size: 13px;
+  padding: 0.4rem 0;
 }
 
 .wishlist {
-  color: #e60013;
+  color: #7c0711;
   font-size: 1.4em;
   padding: 0.5rem 0;
   display: flex;
@@ -27,4 +27,16 @@
 
 .wishlist:hover {
   cursor: pointer;
+}
+
+.card-item:hover {
+  color: #b8b6b4;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.card-image:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }

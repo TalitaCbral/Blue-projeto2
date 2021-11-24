@@ -1,8 +1,10 @@
 .container-title {
   display: flex;
-  align-items: center;
   justify-content: center;
   padding: 2rem 0 0 0;
+  font-size: 14px;
+  color: #fff;
+  background-color: #1B2838;
 }
 
 .container-cards {
@@ -11,4 +13,5 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  background-color: #1B2838;
 }

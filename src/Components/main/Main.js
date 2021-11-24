@@ -8,6 +8,7 @@ export default function Main() {
     <>
       <Navbar/>
       <Body/>
+      <Slider/>
     </>
   );
 }

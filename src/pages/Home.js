@@ -1,6 +1,5 @@
 import Navbar from '../Components/Navbar/Navbar';
 import Slider from '../Components/Slider/Slider';
-import Search from '../Components/Search/Search';
 import Card from '../Components/Card/Card';
 import Container from '../Components/Container/Container';
 import Footer from '../Components/Footer/Footer';
@@ -10,17 +9,14 @@ export default function Home() {
     <>
       <Navbar />
       <Slider 
-        imageLink='https://assets.nintendo.com/image/upload/c_fill,f_auto,h_693,q_auto,w_1920/ncom/en_US/merchandising/center-stage-banner/Metroid%20Dread/Centerstages_Ncom_1366x493_desktop_metroid'
-        alt='Metroid Dread'
-        classificationNumber='10'
-        classificationText='Violência, Conteúdo Sexual'
-      />
-      <Search />
-      <Container title='Mais vendidos'>
+        imageLink='https://cdn2.unrealengine.com/egs-farmingsimulator22preorderbundle-giantssoftware-s3-2560x1440-fe0f2c2e5147.jpg'
+        alt='Farming Simulator 22'
+      /> 
+      <Container title='JOGOS POPULARES DE RV'>
         <Card 
-          image='https://assets.nintendo.com/image/upload/c_pad,f_auto,h_613,q_auto,w_1089/ncom/pt_BR/games/switch/m/mario-kart-8-deluxe-switch/hero?v=2021111315'
-          title='Mario Kart™ 8 Deluxe'
-          preco='299,00'
+          image='https://cdn.akamai.steamstatic.com/steam/apps/1358140/header_292x136.jpg?t=1636464660'
+          title='Cooking Simulator VR'
+          preco='47,49'
         />
       </Container>
       <Footer />
