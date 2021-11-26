@@ -1,41 +1,34 @@
-.navbar {
-  background-color: #171a21;;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.navbar__logo {
-  padding: 1.2rem ;
-}
-
-.navbar__image {
-  width: 7rem;
-  margin: 0 2rem;
-  padding-top: 20px;
-}
-
-.navbar__links__list {
-  display: flex;
+*{
+    
   list-style: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 
-.items {
-  text-decoration: none;
-  color: #b8b6b4;
-  font-weight: 700;
-  padding: 0 1rem;
-  font-size: 0.9rem;
+.navbar{
+  background-color: #231F20;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.text {
-  padding: 0 0.2rem;
+.logo{
+  width: 8rem;
 }
 
-.items:hover {
-  color: #ffffff;
-  cursor: pointer;
-  transition: all 200ms ease;
+.menus{
+  font-family: 'Shippori Antique', sans-serif;
+  color: azure;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.menus li{
+  margin: 0rem 1rem;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }

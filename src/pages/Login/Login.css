@@ -1,0 +1,88 @@
+.login {
+  background-color: #1B2838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rem;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+.login-container {
+  padding: 4rem 4rem 1rem 4rem;
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+.login-title {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 0 0 2rem 0;
+  font-weight: 500;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form > input {
+  font-size: 1.2em;
+  width: 25rem;
+  height: 2.5rem;
+  padding: 0.4rem 0.6rem;
+  margin: 0.4rem 0;
+}
+
+.login-ok {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-ok a {
+  font-size: 0.8em;
+  text-decoration: none;
+  color: blue;
+}
+
+.login-ok a:hover {
+  text-decoration: underline;
+}
+
+.login-ok > input {
+  background-color: green;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 1rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.login-create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.login-create > span {
+  padding: 0.5rem;
+}
+
+.btn-create {
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  border: 1px solid #000;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.8em;
+  background-color: #231F20;
+}
+
+.btn-create:hover {
+  background-color: #b1b1b1;
+  color: black;
+}
