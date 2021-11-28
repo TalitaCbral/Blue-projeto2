@@ -38,7 +38,7 @@ export default function Login() {
           />
 
           <div className='login-ok'>
-            <a href='login'>
+            <a href='!#'>
               <span>Esqueceu sua senha?</span>
             </a>
             <input type='submit' value='Fazer login' />
